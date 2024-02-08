@@ -1,0 +1,142 @@
+/* Use Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7; /* Set the background color using hex notation */
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif; /* Use a different font for headings */
+}
+
+ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.top-nav {
+    background-color: #333333; /* Dark background color for the nav bar */
+    overflow: hidden;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    float: left; /* Display nav items in a row */
+}
+
+.nav-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Change link color on hover using the :hover pseudo-class */
+.nav-item a:hover {
+    background-color: #dddddd;
+    color: black;
+}
+
+/* Class-based selector */
+.content-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px; /* Control the geometry of an element */
+}
+
+/* ID-based selector */
+#main-title {
+    color: #333333; /* Specify color by hex notation */
+    text-align: center;
+    border-bottom: 2px solid #333333; /* Set the border of an element */
+}
+
+.text-and-stats {
+    flex: 2;
+    display: block;
+    padding: 20px;
+}
+
+.image-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.image-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+}
+
+thead {
+    background-color: #e2e2e2; /* Set the background color by hex notation */
+}
+
+.stats-content {
+    margin-top: 20px;
+}
+
+/* Hierarchical relationship selector */
+.content-section a {
+    color: #1a1a1a; /* Dark grey text color */
+}
+
+/* Indented list using class-based selector */
+.indented-list {
+    padding-left: 20px;
+}
+
+/* Hover effect on list items */
+.indented-list li:hover {
+    background-color: #e7e7e7;
+}
+
+.dropdown-section {
+    display: flex; /* Use flexbox to lay out children inline */
+    align-items: center; /* Align children vertically in the center */
+    margin-top: 10px; /* Add some space above the dropdown section */
+}
+
+.dropdown-section label {
+    margin-right: 10px; /* Add some space between the label and the dropdown */
+}
+
+#greatest-player-dropdown {
+    /* Your styles for the dropdown */
+    /* Example: */
+    padding: 5px;
+    font-size: 1rem;
+    border: 1px solid #333;
+    border-radius: 4px;
+}
+
+
+/* Style the options inside the dropdown */
+#greatest-player-dropdown option {
+    padding: 5px; /* Add padding to make the options easier to read */
+}
+
